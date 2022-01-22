@@ -307,6 +307,7 @@ button:hover {
 .list img {
     max-width: 40px;
     max-height: 40px;
+    object-fit: cover;
 }
 
 .infoSuggest {
