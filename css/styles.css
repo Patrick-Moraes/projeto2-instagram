@@ -3,6 +3,10 @@ body {
     background-color: #FAFAFA;
 }
 
+ion-icon {
+    color: black;
+}
+
 header {
     border: 1px solid #DBDBDB;
     margin-bottom: 30px;
@@ -37,9 +41,6 @@ nav ion-icon {
     margin: 0 20px 0 0;
 }
 
-ion-icon {
-    color: black;
-}
 
 .pesquisar {
     border: 1px solid #DBDBDB;
@@ -178,6 +179,39 @@ ion-icon {
     margin-top: 3px;
     font-size: 14px;
     font-weight: 400;
+}
+
+.commentSection {
+    max-width: 100%;
+    border-top: 1px solid #DBDBDB;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.commentSection ion-icon {
+    margin: 2%;
+    font-size: 25px;
+}
+
+input {
+    border: none;
+    outline: none;
+    margin-right: 4%;
+    width: 100%;
+}
+
+button {
+    margin-right: 3%;
+    background: none;
+    border: none;
+    font-family: 'Roboto', sans-serif;
+    color: #B2DFFC;
+    transition: color 300ms ease-in-out;
+}
+
+button:hover {
+    color: #0095F6;
 }
 
 .total {
