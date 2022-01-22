@@ -90,7 +90,7 @@ nav ion-icon {
     max-width: 50px;
     border-radius: 50%;
 
-    background-image: url("borda-stories.svg");
+    background-image: url("../imagens/borda-stories.svg");
     background-size: cover;
     padding: 4px;
 }
