@@ -182,6 +182,33 @@ nav ion-icon {
 }
 
 .commentSection {
+    display: flex;
+    justify-content: space-between;
+}
+
+.commentSection ion-icon {
+    margin-right: 3%;
+}
+
+.comments {
+    display: flex;
+    width: 100%;
+}
+
+.comments p {
+    margin: 2% 0 2% 2%;
+}
+
+.comments {
+    font-size: 15px;
+}
+
+.comment {
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.commentInput {
     max-width: 100%;
     border-top: 1px solid #DBDBDB;
     display: flex;
@@ -189,7 +216,7 @@ nav ion-icon {
     align-items: center;
 }
 
-.commentSection ion-icon {
+.commentInput ion-icon {
     margin: 2%;
     font-size: 25px;
 }
