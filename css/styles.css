@@ -11,6 +11,9 @@ header {
     border: 1px solid #DBDBDB;
     margin-bottom: 30px;
     background: #FFFFFF;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
 }
 
 nav {
@@ -21,16 +24,19 @@ nav {
     align-items: center;
     justify-content: space-between;
     margin: auto;
+    z-index: 1;
 }
 
 nav img {
     border-left: 1px solid #DBDBDB;
     margin-left: 10px;
     padding-left: 10px;
+    position: relative;
 }
 
 nav ion-icon {
     margin-bottom: 4px;
+    position: relative;
 }
 
 .icon {
@@ -58,7 +64,7 @@ nav ion-icon {
 .stories {
     border: 1px solid #DBDBDB;
     background: #FFFFFF;
-    margin: 0 auto 24px auto;
+    margin: 84px auto 24px auto;
     width: 614px;
     height: 118px;
     border-radius: 3px;
@@ -246,6 +252,7 @@ button:hover {
     margin: auto;
     display: flex;
     flex-direction: center;
+    position: relative;
 }
 
 .infoPrin {
@@ -260,7 +267,7 @@ button:hover {
 
 .sidebar {
     width: 290px;
-    margin: 28px auto 0px 30px;
+    margin: 112px auto 0px 30px;
     position: fixed;
 }
 
@@ -425,7 +432,7 @@ button:hover {
     }
 
     .stories {
-        margin: 0px;
+        margin: 50px 0 0 0;
         background: none;
         width: 100vw;
     }
@@ -442,7 +449,6 @@ button:hover {
 
     header {
         width: 100vw;
-        height: 100%;
         margin-bottom: 0px;
         justify-content: space-around;
         border-left: none;
